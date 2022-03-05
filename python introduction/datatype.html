@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Learn Python Together</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">LEARN PYTHON</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../course.html">LEARN PYTHON</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PYTHON PROGRAMS
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" aria-disabled="false">CONTACT US</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="container-fluid">
+            <center>
+                <h2 id="statement1">
+                    <b>Python Data Types</b>
+                </h2><br>
+    </section>
+    <section>
+        <div class="getting3">
+            <h3><b>Data types in Python</b></h3>
+            <h5>
+                Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes. There are various data types in Python. Some of the important types are listed
+                below.
+            </h5><br>
+        </div>
+    </section>
+    <section>
+        <div id="statement2">
+            <h4><b>Python Numbers</b></h4>
+            <h5>
+                Integers, floating point numbers and complex numbers fall under Python numbers category. They are defined as int, float and complex classes in Python.<br> We can use the type() function to know which class a variable or a value belongs
+                to. Similarly, the isinstance() function is used to check if an object belongs to a particular class.
+            </h5><br>
+        </div>
+
+
+        <div id="statement3">
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">a = 5</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="red">print(a, "is of type", type(a))</font> <br><br>&nbsp;&nbsp;&nbsp;
+                <font color="#FF00FF">a = 2.0</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00">print(a, "is of type", type(a))</font> <br><br>&nbsp;&nbsp;&nbsp;
+                <font color="#00FFFF"> a = 1+2j</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#FFFF00">print(a, "is complex number?", isinstance(1+2j,complex))</font> <br><br>
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <h4>Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">5 is of type class 'int'
+                </font><br>&nbsp;&nbsp;&nbsp;
+                <font color="white">2.0 is of type class 'float'</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="white"> (1+2j) is complex number? True</font>
+            </h5>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h5 class="getting2">
+                Integers can be of any length, it is only limited by the memory available.<br> A floating-point number is accurate up to 15 decimal places. Integer and floating points are separated by decimal points. 1 is an integer, 1.0 is a floating-point
+                number.
+                <br> Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part. Here are some examples.
+        </div>
+    </section>
+    <section>
+        <div>
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="#d19a66">
+                    <font color="#61aeee">>>></font> a = 1234567890123456789
+                    </t><br>&nbsp;&nbsp;&nbsp;
+                    <font color="#d19a66">
+                        <font color="#61aeee">>>></font> a</font> <br> &nbsp;&nbsp;&nbsp;
+                    <font color="#d19a66">1234567890123456789</font><br> &nbsp;&nbsp;&nbsp;
+                    <font color="#d19a66">
+                        <font color="#61aeee">>>></font> b = 0.1234567890123456789
+                    </font><br>&nbsp;&nbsp;&nbsp;
+                    <font color="#d19a66">
+                        <font color="#61aeee">>>></font> b</font> <br> &nbsp;&nbsp;&nbsp;
+                    <font color="#d19a66">0.12345678901234568</font><br> &nbsp;&nbsp;&nbsp;
+                    <font color="#d19a66">
+                        <font color="#61aeee">>>></font> c = 1+2j
+                    </font><br>&nbsp;&nbsp;&nbsp;
+                    <font color="#d19a66">
+                        <font color="#61aeee">>>></font> c</font> <br> &nbsp;&nbsp;&nbsp;
+                    <font color="#d19a66">(1+2j)</font>
+            </h5><br><br>
+        </div>
+    </section>
+    <section>
+        <div style="background-color:rgb(236, 119, 73); color: white">
+            <h3><b>Python List</b></h3>
+            <h5 color="white">
+                List is an ordered sequence of items. It is one of the most used datatype in Python and is very flexible. All the items in a list do not need to be of the same type. Declaring a list is pretty straight forward. Items separated by commas are enclosed within
+                brackets [ ].
+
+
+            </h5>
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="#d19a66">
+                    <font color="#61aeee">a</font> = [1,&nbsp; 2.2,&nbsp; 'python'&nbsp;]
+                    </t><br>
+        </div>
+    </section>
+    <section>
+        <div style="background-color:rgb(236, 119, 73); color: white">
+
+            <h5 color="white">
+                We can use the slicing operator [ ] to extract an item or a range of items from a list. The index starts from 0 in Python.
+
+
+            </h5>
+        </div>
+
+        <div id="statement3">
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">a = [5,10,15,20,25,30,35,40]</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="red"># a[2] = 15</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#FF00FF">print("a[2] = ", a[2])</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00"># a[0:3] = [5, 10, 15]</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#00FFFF">print("a[0:3] = ", a[0:3])</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="#FFFF00"># a[5:] = [30, 35, 40]</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="#FF9900">print("a[5:] = ", a[5:])</font> <br><br>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h4 style="color:#FF0000">Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">a[2] = 15
+                </font><br>&nbsp;&nbsp;&nbsp;
+                <font color="white">a[0:3] = [5, 10, 15]</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="white">a[5:] = [30, 35, 40]</font>
+            </h5>
+        </div>
+        <div style="background-color:rgb(236, 119, 73); color: white">
+
+            <h5 color="white">
+                Lists are mutable, meaning, the value of elements of a list can be altered. </h5>
+        </div>
+
+        <div>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00">a = [1, 2, 3]</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#FF0080
+                ">a[2] = 4</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="#34DDDD">print(a)</font>
+            </h5>
+        </div>
+        <div>
+            <h4 style="color:#FF0000">Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">[1, 2, 4]
+                </font><br>
+            </h5><br><br>
+        </div>
+    </section>
+
+    <section>
+        <div style="background-color:#FF0080">
+            <h4 style="color:#EEEEEE"><b>Python Tuple</b></h4>
+            <h5 style="color:#EEEEEE">
+                Tuple is an ordered sequence of items same as a list. The only difference is that tuples are immutable. Tuples once created cannot be modified.<br> Tuples are used to write-protect data and are usually faster than lists as they cannot
+                change dynamically.<br> It is defined within parentheses () where items are separated by commas.
+            </h5>
+        </div>
+        <div>
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="#CCFFFF">t = (5,'program', 1+3j)
+                </font><br>
+            </h5>
+        </div>
+        <div style="background-color:#FF0080">
+            <h5 style="color:#EEEEEE">
+                We can use the slicing operator [] to extract items but we cannot change its value.
+            </h5>
+        </div>
+        <div id="statement3">
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">t = (5,'program', 1+3j)</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="red"># t[1] = 'program'</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#FF00FF">print("t[1] = ", t[1])</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00"># t[0:3] = (5, 'program', (1+3j))</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#00FFFF">print("t[0:3] = ", t[0:3])</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="#FFFF00"># Generates error</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="#FF9900"># Tuples are immutable</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#FFFF00">t[0] = 10</font> <br><br> &nbsp;&nbsp;&nbsp;
+        </div>
+        <div>
+            <h4 style="color:#FF0000">Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">t[1] = program
+                </font><br>&nbsp;&nbsp;&nbsp;
+                <font color="white">t[0:3] = (5, 'program', (1+3j))</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="white">Traceback (most recent call last):</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="white">&nbsp;&nbsp;File "test.py", line 11, in 'module'</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="white">&nbsp;&nbsp;&nbsp;t[0] = 10</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="white">TypeError: 'tuple' object does not support item assignment</font><br>
+            </h5><br><br>
+        </div>
+    </section>
+    <section>
+        <div style="background-color:#FF0080">
+            <h4 style="color:#EEEEEE"><b>Python Strings</b></h4>
+            <h5 style="color:#EEEEEE">
+                String is sequence of Unicode characters. We can use single quotes or double quotes to represent strings. Multi-line strings can be denoted using triple quotes, ''' or """.
+            </h5>
+        </div>
+        <div>
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="#CCFFFF">s = "This is a string"
+                </font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00">print(s)
+                </font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#FF9933">s = '''A multiline
+                </font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#028482">string'''
+                </font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00">print(s)
+                </font><br>
+            </h5>
+        </div>
+        <div>
+            <h4 style="color:#FF0000">Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">This is a string</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="white">A multiline</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="white">string</font><br>
+            </h5>
+        </div>
+        <div style="background-color:#FF0080">
+            <h5 style="color:#EEEEEE">
+                Just like a list and tuple, the slicing operator [ ] can be used with strings. Strings, however, are immutable.
+            </h5>
+        </div>
+        <div id="statement3">
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">s = 'Hello world!'</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="red"># s[4] = 'o'</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#FF00FF">print("s[4] = ", s[4])</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00"># s[6:11] = 'world'</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#00FFFF">print("s[6:11] = ", s[6:11])</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="#FFFF00"># Generates error</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="#FF9900"># Strings are immutable in Python</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#FFFF00">s[5] ='d'</font> <br><br> &nbsp;&nbsp;&nbsp;
+        </div>
+        <div>
+            <h4 style="color:#FF0000">Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">s[4] = o
+                </font><br>&nbsp;&nbsp;&nbsp;
+                <font color="white">s[6:11] = world</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="white">Traceback (most recent call last):</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="white">&nbsp;&nbsp;File "string", line 11, in 'module'</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="white">TypeError: 'str' object does not support item assignment</font><br>
+            </h5><br><br>
+        </div>
+    </section>
+    <section>
+        <div style="background-color:#50d811">
+            <h4 style="color:black"><b>Python Set</b></h4>
+            <h5 style="color:black">
+                Set is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }. Items in a set are not ordered.
+            </h5>
+        </div>
+        <div id="statement3">
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">a = {5,2,3,1,4}</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="#3399FF"># printing set variable</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#FF00FF">print("a = ", a)</font><br><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00"># data type of variable a</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#00FFFF">print(type(a))</font><br><br>
+        </div>
+        <div>
+            <h4 style="color:#FF0000">Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">a = {1, 2, 3, 4, 5}
+                </font><br>&nbsp;&nbsp;&nbsp;
+                <font color="white">class 'set'</font> <br>
+            </h5>
+        </div>
+        <div style="background-color:#50d811">
+
+            <h5 style="color:black">
+                We can perform set operations like union, intersection on two sets. Sets have unique values. They eliminate duplicates.
+            </h5>
+        </div>
+        <div>
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="#CCFFFF">a = {1,2,2,3,3,3}
+                </font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#FF0080">print(a)
+                </font><br>
+            </h5>
+        </div>
+        <div>
+            <h4 style="color:#FF0000">Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">{1, 2, 3}
+                </font><br>
+            </h5>
+        </div>
+        <div style="background-color:#50d811">
+
+            <h5 style="color:black">
+                Since, set are unordered collection, indexing has no meaning. Hence, the slicing operator [] does not work.
+            </h5>
+        </div>
+        <div>
+            <h4 style="color:#FF0000">Output</h4>
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">>>> a = {1,2,3}
+                </font><br>&nbsp;&nbsp;&nbsp;
+                <font color="#3399FF">>>> a[1]</font> <br> &nbsp;&nbsp;&nbsp;
+                <font color="#FF00FF">Traceback (most recent call last):</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00">&nbsp;&nbsp;File "string", line 301, in runcode</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="white">&nbsp;&nbsp;File "interactive input", line 1, in 'module'</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FFFF">TypeError: 'set' object does not support indexing</font><br>
+            </h5><br><br>
+        </div>
+    </section>
+
+    <section>
+        <div style="background-color:#66CCFF">
+            <h4 style="color:black"><b>Python Dictionary</b></h4>
+            <h5 style="color:black">
+                Dictionary is an unordered collection of key-value pairs.<br> It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.<br> In Python, dictionaries
+                are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.<br>
+            </h5>
+        </div>
+        <div>
+            <div>
+                <h5 style="background-color:#383b40">
+                    &nbsp;&nbsp;&nbsp;
+                    <font color="#00FF00">>>> d = {1:'value','key':2}</font> <br>&nbsp;&nbsp;&nbsp;
+                    <font color="#FF0080
+                    ">>>> type(d)</font> <br> &nbsp;&nbsp;&nbsp;
+                    <font color="#34DDDD">class 'dict'</font>
+                </h5>
+            </div>
+            <div style="background-color:#66CCFF">
+
+                <h5 style="color:black">
+                    We use key to retrieve the respective value. But not the other way around.
+                </h5>
+            </div>
+            <div id="statement3">
+
+                <h5 style="background-color:#383b40">
+                    &nbsp;&nbsp;&nbsp;
+                    <font color="white">d = {1:'value','key':2}</font><br> &nbsp;&nbsp;&nbsp;
+                    <font color="red">print(type(d))</font> <br><br>&nbsp;&nbsp;&nbsp;
+                    <font color="#FF00FF">print("d[1] = ", d[1])</font><br><br> &nbsp;&nbsp;&nbsp;
+                    <font color="#00FF00">print("d['key'] = ", d['key'])</font> <br><br>&nbsp;&nbsp;&nbsp;
+                    <font color="#00FFFF"># Generates error</font><br> &nbsp;&nbsp;&nbsp;
+                    <font color="#FFFF00">print("d[2] = ", d[2])</font> <br>
+            </div>
+            <div>
+                <h4 style="color:#FF0000">Output</h4>
+                <h5 style="background-color:#383b40">
+                    &nbsp;&nbsp;&nbsp;
+                    <font color="white">class 'dict'
+                    </font><br>&nbsp;&nbsp;&nbsp;
+                    <font color="white">d[1] = value</font> <br> &nbsp;&nbsp;&nbsp;
+                    <font color="white">d['key'] = 2</font><br> &nbsp;&nbsp;&nbsp;
+                    <font color="white">Traceback (most recent call last):</font><br> &nbsp;&nbsp;&nbsp;
+                    <font color="white">&nbsp;&nbsp;File "string", line 9, in 'module'</font><br> &nbsp;&nbsp;&nbsp;
+                    <font color="white">KeyError: 2</font><br>
+                </h5><br><br>
+            </div>
+    </section>
+    <section>
+        <div style="background-color:#FF0000">
+            <h4 style="color:black"><b>Conversion between data </b></h4>
+            <h5 style="color:black">
+                We can convert between different data types by using different type conversion functions
+            </h5>
+        </div>
+        <div id="statement3">
+
+            <h5 style="background-color:#383b40">
+                &nbsp;&nbsp;&nbsp;
+                <font color="white">>>> set([1,2,3])</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#3399FF">{1, 2, 3}</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#FF00FF">>>> tuple({5,6,7})</font><br> &nbsp;&nbsp;&nbsp;
+                <font color="#00FF00">(5, 6, 7)</font> <br>&nbsp;&nbsp;&nbsp;
+                <font color="#00FFFF">>>> list('hello')</font><br>&nbsp;&nbsp;&nbsp;
+                <font color="#FFCC00">['h', 'e', 'l', 'l', 'o']</font><br>
+        </div>
+    </section>
+    <section>
+        <div class="relatedtut"><b>Related Tutorials</b></div>
+    </section>
+    <section>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <p class="card_title">Learn Python</p>
+                <p class="card_description">Python Tuple</p>
+            </div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+        </div>
+    </section>
+
+    <a href='/python introduction/variables.html'>
+        <button type="button" class="btn btn-primary m-2">← Previous </button>
+
+
+        <a class="btn btn-danger" href="/python introduction/datatype.html">Next →</a>
+
+
+        <footer <h3 class="p-3 bg-dark text-white text-center ">copyright©2021-2022 learnpythontogether</h3>
+
+        </footer>
+        <a href="#" class="to-top">
+            <i class="fas fa-chevron-up">^</i>
+
+        </a>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+        <script src="../js/index.js"></script>
+</body>
+
+</html>

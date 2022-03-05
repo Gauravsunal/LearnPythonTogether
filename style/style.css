@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+}
+
+.dropdown-item {
+    background-color: black;
+    color: blue;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+    height: 350px;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    margin: 64px 6px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.h1,
+h1 {
+    font: size 100px;
+}
+
+
+/* .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    margin-top: 20px;
+} */
+
+.row>* {
+    display: flex;
+    justify-content: center;
+}
+
+.row>*.para {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-top: 47px !important;
+    margin-bottom: 1rem !important;
+    display: flex;
+    justify-content: center;
+    margin-left: -75px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin: 24px;
+    background-color: rgb(197, 71, 25);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin: 14px;
+    background-color: rgb(180, 69, 28);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+element.style {
+    background-color: #96D1CD;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-right: 28px;
+    margin-left: -35px;
+    width: 100%;
+}
+
+.container {
+    justify-content: space-between;
+    flex-direction: column;
+    height: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    /* font-weight: 100px !important; */
+}
+
+.container .btn-holder {
+    justify-content: flex-end;
+    display: flex;
+    /* bottom: 40px; */
+    margin-top: -4px;
+    margin-bottom: 45px;
+    margin-right: -28px;
+    /* padding: 50px; */
+}
+
+.yes {
+    background-color: green;
+    padding: 10px;
+}
+
+.no {
+    background-color: red;
+    padding: 10px;
+}
+
+#box1 {
+    background-color: #FFB695;
+}
+
+#box2 {
+    background-color: #96D1CD;
+}
+
+#box3 {
+    background-color: #FFB695;
+}
+
+#box4 {
+    background-color: #96D1CD;
+}
+
+#box5 {
+    background-color: #FFB695;
+}
+
+#box6 {
+    background-color: #96D1CD;
+}
+
+#box7 {
+    background-color: #FFB695;
+}
+
+#box8 {
+    background-color: #96D1CD;
+}
+
+.getting1 {
+    color: rgb(12, 19, 219);
+    background-color: rgb(99, 241, 118);
+    margin-bottom: -20px !important;
+    font-size: 55px;
+}
+
+.getting2 {
+    background-color: rgb(241, 151, 119);
+    margin-top: 40px;
+}
+
+.getting3 {
+    background-color: rgb(0, 255, 255);
+}
+
+#firstpg {
+    width: 45%;
+    height: 80%;
+}
+
+.getting4 {
+    background-color: chartreuse;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+#keyword1 {
+    color: darkblue;
+    font-size: 70px !important;
+    margin-top: 30px;
+}
+
+#keyword2 {
+    font-size: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    overflow: hidden;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#keywordmain {
+    overflow-x: hidden;
+}
+
+#keyword4 {
+    color: rgb(12, 19, 219);
+    background-color: rgb(99, 241, 118);
+    margin-bottom: -20px !important;
+    font-size: 55px;
+    overflow-x: hidden;
+}
+
+#keyword3 {
+    background-color: rgb(207, 108, 83);
+}
+
+#statement1 {
+    color: rgb(12, 19, 219);
+    background-color: rgb(99, 241, 118);
+    font-size: 40px;
+}
+
+#statement2 {
+    color: rgb(243, 4, 116);
+    background-color: rgb(145, 229, 163);
+}
+
+#statement3 {
+    color: darkblue;
+}
+
+#keyword5 {
+    color: rgb(12, 19, 219);
+    background-color: rgb(99, 241, 118);
+    font-size: 40px;
+}
+
+#statement4 {
+    color: darkblue;
+}
+
+#statement5 {
+    color: darkblue;
+}
+
+.statementcls1 {
+    background-color: chartreuse;
+}
+
+.statementcls {
+    color: darkblue;
+}
+
+#activetop {
+    /* background-color: rgb(219, 45, 74); */
+    margin-bottom: -42px;
+    margin-left: 8px;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.to-top {
+    background: rgb(245, 17, 17);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.fas {
+    font-size: 45px;
+}
+
+#variablemain {
+    overflow-x: hidden;
+}
+
+.variable1 {
+    background-color: rgb(208, 88, 245);
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.variable2 {
+    background-color: rgb(215, 236, 26);
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.relatedtut {
+    font-size: 30px;
+    color: black;
+}
+
+.grid-item {
+    height: 140px;
+}

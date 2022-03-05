@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Learn Python Together</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LEARN PYTHON</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../course.html">LEARN PYTHON</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PYTHON PROGRAMS
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" aria-disabled="false">CONTACT US</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <section>
+        <div class="container-fluid">
+            <center>
+                <h2 id="statement1">
+                    Statement, Indentation and Comments
+                </h2>
+            </center>
+    </section>
+
+    <section>
+        <div class="getting3">
+            <h3>Python Statement</h3>
+            <h5>
+                Instructions that a Python interpreter can execute are called statements. For example, a = 1 is an assignment statement. if statement, for statement, while statement, etc.
+            </h5>
+        </div>
+    </section>
+    <section>
+        <div id="statement2">
+            <h4>Multi-line statement</h4>
+            <h5>
+                In Python, the end of a statement is marked by a newline character. But we can make a statement extend over multiple lines with the line continuation character (\). For example:
+            </h5>
+        </div>
+    </section>
+
+    <section>
+        <div id="statement3">
+
+            <h5>
+                a = 1 &emsp; + 2 &emsp; + 3 &emsp; + \ <br> &emsp; &nbsp; 4 &emsp; + 5 &emsp; + 6 &emsp; + \<br> &nbsp; &emsp; 7 &emsp; + 8 &emsp; + 9 &emsp;<br>
+            </h5>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h5 class="getting2">
+                This is an explicit line continuation. In Python, line continuation is implied inside parentheses ( ), brackets [ ], and braces { }. For instance, we can implement the above multi-line statement as:.
+            </h5>
+        </div>
+    </section>
+    <section>
+        <div id="statement3">
+
+            <h5>
+                a = (1 &emsp; + 2 &emsp; + 3 &emsp; + <br> &emsp; &nbsp; 4 &emsp; + 5 &emsp; + 6 &emsp; + <br> &nbsp; &emsp; 7 &emsp; + 8 &emsp; + 9 )&emsp;<br>
+            </h5>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h5 class="getting2">
+                Here, the surrounding parentheses ( ) do the line continuation implicitly. Same is the case with [ ] and { }. For example:
+            </h5>
+        </div>
+    </section>
+
+
+    <section>
+        <div id="statement4">
+            <h5>
+                colors = ['red',<br> &emsp; &emsp; &ensp; &nbsp;'blue',
+                <br> &emsp; &emsp; &ensp; &nbsp;'green']
+                <br>
+            </h5>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h5 class="getting2">
+                We can also put multiple statements in a single line using semicolons, as follows:
+            </h5>
+        </div>
+
+        <div id="statement5">
+            <h5>
+                a = 1; b = 2; c = 3
+            </h5>
+        </div>
+    </section>
+
+    <section>
+        <div class="statementcls1">
+            <h3>Python Indentation
+            </h3>
+            <h5>
+                Most of the programming languages like C, C++, and Java use braces { } to define a block of code. Python, however, uses indentation. A code block (body of a function, loop, etc.) starts with indentation and ends with the first unindented line. The amount
+                of indentation is up to you, but it must be consistent throughout that block. Generally, four whitespaces are used for indentation and are preferred over tabs. Here is an example.
+            </h5>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="statementcls">
+            <h5>
+                for i in range(1,11):<br> &emsp; print(i)
+                <br> &emsp; if i == 5:<br> &emsp; &emsp; break
+                <br>
+            </h5>
+        </div>
+    </section>
+
+    <section>
+        <div class="statementcls1">
+            <h5>
+                The enforcement of indentation in Python makes the code look neat and clean. This results in Python programs that look similar and consistent. Indentation can be ignored in line continuation, but it's always a good idea to indent. It makes the code more
+                readable. For example:
+            </h5>
+        </div>
+    </section>
+
+    <section>
+        <div class="statementcls">
+            <h5>
+                if True:<br> &emsp;print('Hello')
+                <br> &emsp;a = 5<br>
+            </h5>
+        </div>
+    </section>
+
+    <section>
+        <div class="getting3">
+            <h3>Python Comments</h3>
+        </div>
+
+
+        <!-- Tab links
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        </div>
+
+        Tab content
+        <div id="London" class="tabcontent">
+            <h4>Single Line Comment</h4>
+            <p>Comments are very important while writing a program. They describe what is going on inside a program, so that a person looking at the source code does not have a hard time figuring it out. You might forget the key details of the program you
+                just wrote in a month's time. So taking the time to explain these concepts in the form of comments is always fruitful. In Python, we use the hash (#) symbol to start writing a comment. It extends up to the newline character. Comments are
+                for programmers to better understand a program. Python Interpreter ignores comments.</p>
+        </div>
+
+        <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+        </div> -->
+
+
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+
+
+    </section>
+
+
+
+
+    <a href='/python introduction/keyword.html'>
+        <button type="button" class="btn btn-primary m-2">← Previous </button>
+    </a>
+
+
+
+
+
+
+    <a class="btn btn-danger" href="/python introduction/variables.html">Next →</a>
+
+
+    <footer <h3 class="p-3 bg-dark text-white text-center ">copyright©2021-2022 learnpythontogether</h3>
+
+    </footer>
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up">^</i>
+
+    </a>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
